@@ -1,11 +1,4 @@
-# Lab 1 – Introduction to MATLAB (Logbook Excerpt)
-
-**Date:** 17 Jan 2026  
-**Task:** Implement 2D geometric transforms (Rotation + Shearing) on the provided `clown` image using reverse mapping and nearest-neighbour sampling.
-
-## Setup
-- Loaded test image using `load clown` (200×320 grayscale, `double` in [0,1]).
-- Verified pixel access with `clown(20,319)` and displayed with `imshow(clown)`.
+# Lab 1 – Introduction to MATLAB (Logbook)
 
 ## Task 1 – Rotation (Reverse Mapping)
 - Implemented `Rotate(In, Theta)` using a 2×2 rotation matrix:
