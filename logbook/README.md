@@ -1,4 +1,4 @@
-# Lab 1 – Introduction to MATLAB (Logbook)
+# Lab 1 – Introduction to MATLAB - Logbook - 17/01/26
 
 ## Task 1 – Rotation (Reverse Mapping)
 - Implemented `Rotate(In, Theta)` using a 2×2 rotation matrix:
@@ -15,6 +15,3 @@
   - Used the same centre-point approach (`cp = [rows/2; cols/2]`) so the centre pixel remains stationary.
   - For each destination pixel, mapped back to the source using `tp = itm*(p-cp)+cp`.
   - Used nearest neighbour (`round`) and black padding for out-of-bounds pixels.
-
-## Key Observation
-- Reverse mapping ensures every destination pixel is assigned exactly once, preventing gaps/holes that occur with forward mapping. Nearest-neighbour interpolation was implemented via `round()` to satisfy the “nearest pixel” requirement.
