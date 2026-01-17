@@ -1,1 +1,2 @@
 This is where you keep the log of this lab in Markdown (.md).  It is worth learning Markdown because you will find it useful for many applications. For example, MD is used in GitHub, Notion and my favourite, Obsidian.
+THis is a test
